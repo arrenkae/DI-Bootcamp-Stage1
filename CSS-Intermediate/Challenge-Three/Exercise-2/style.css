@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+.container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+}
+  
+.redbox, .greenbox, .orangebox, .purplebox {
+  border: 3px solid black;
+}
+
+.redbox, .greenbox, .orangebox {
+  width: 33%;
+  height: 600px;
+}
+  
+.redbox {
+  background-color: IndianRed;
+}
+  
+.greenbox {
+  background-color: MediumSeaGreen ;
+}
+
+.orangebox {
+  background-color: orange;
+}
+  
+.purplebox {
+  height: 100px;
+  background-color: DarkOrchid;
+}

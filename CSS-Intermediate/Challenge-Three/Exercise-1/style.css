@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  
+  .container-red {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 15%;
+    margin-left: 10px;
+  }
+  
+  .container-blue {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 85%;
+    margin-right: 40px;
+  }
+  
+  .redbox, .bluebox, .yellowbox {
+    border: 3px solid black;
+  }
+  
+  .redbox {
+    width: auto;
+    height: 100px;
+    background-color: LightCoral;
+  }
+  
+  .bluebox {
+    height: 100px;
+    background-color: CornflowerBlue;
+  }
+  
+  .yellowbox {
+    height: 100px;
+    margin: 30px 40px 10px 10px;
+    background-color: LemonChiffon;
+  }

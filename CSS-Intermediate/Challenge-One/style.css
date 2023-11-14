@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+#wrap {
+    width: 1200px;
+    height: 520px;
+    background-color: #364371;
+}
+
+#nav {
+    float: left;
+    width: 180px;
+    height: 420px;
+    margin-left: 50px;
+    padding: 1em;
+    background-color: #b0cfff;
+}
+
+#content {
+    height: 420px;
+    margin-left: 230px;
+    margin-right: 50px;
+    padding: 1em;
+    text-align: center;
+    background-color: #5b7fbd;
+}
+
+#content ul {
+    list-style-type: none;
+}
+
+.copyright {
+    padding: 0.5em;
+}

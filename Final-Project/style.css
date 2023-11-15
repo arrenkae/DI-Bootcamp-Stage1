@@ -1,3 +1,7 @@
+body {
+  background-color: #eceff1;
+}
+
 header {
     background: url("media/main.jpeg");
     background-size: cover;
@@ -40,6 +44,7 @@ header {
 #about {
   line-height: 1.75;
   font-family: 'Josephin Sans', sans-serif;
+  color: #353d47;
 }
 
 main h1, h3, h4 {
@@ -48,7 +53,13 @@ main h1, h3, h4 {
 }
 
 main h1, h3 {
+  text-transform: capitalize;
   text-align: center;
+  color: #2d3236;
+}
+
+h4 {
+  color: #eceff1;
 }
 
 #pictures {
@@ -69,7 +80,7 @@ footer {
     font-size: 3.75em;
   }
   .subtitle {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   h1 {
     font-size: 3em;
@@ -87,7 +98,7 @@ footer {
     font-size: 2.75em;
   }
   .subtitle {
-    font-size: 1.75em;
+    font-size: 2em;
   }
   h1 {
     font-size: 2.5em;

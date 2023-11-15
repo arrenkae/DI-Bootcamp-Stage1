@@ -1,57 +1,98 @@
 header {
     background: url("media/main.jpeg");
     background-size: cover;
-    background-position: left;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    position: relative;
+    margin-bottom: 30px;
   }
   
-  .navlink {
-    color: black;
-    font-size: 1.5em;
-    font-family: "Bebas Neue", sans-serif;
-  }
+.navlink {
+  color: black;
+  font-size: 1.5em;
+  font-family: "Bebas Neue", sans-serif;
+}
   
-  .caption {
-    position: absolute;
-    top: 5vh;
-    right: 10vw;
-  }
+.caption {
+  position: absolute;
+  top: 5vh;
+  right: 10vw;
+}
   
+.title {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+}
+  
+.subtitle {
+  font-family: 'Caveat', cursive;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  float: left;
+  padding: 30px;
+}
+
+#about {
+  line-height: 1.75;
+  font-family: 'Josephin Sans', sans-serif;
+}
+
+main h1, h3, h4 {
+  font-family: 'Outfit', sans-serif;
+  margin-bottom: 35px;
+}
+
+main h1, h3 {
+  text-align: center;
+}
+
+#pictures {
+  margin: 30px;
+}
+
+footer {
+  font-family: 'Josephin Sans', sans-serif;
+  font-size: 14px;
+}
+
+.btn-floating {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 780px) {
   .title {
-    font-size: 5em;
-    text-transform: uppercase;
-    font-family: "Anton", sans-serif;
+    font-size: 3.75em;
   }
-  
   .subtitle {
-    font-family: "Caveat", cursive;
+    font-size: 2em;
   }
-  
-  @media screen and (max-width: 501px) {
-    .title {
-      font-size: 3em;
-    }
-    .subtitle {
-      font-size: 2em;
-    }
+  h1 {
+    font-size: 3em;
   }
-  
-  section {
-    padding: 30px;
+  h3 {
+    font-size: 2em;
   }
-  
-  #about img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    padding: 30px;
-    float: left;
+  h4 {
+    font-size: 1.5em;
   }
-  
-  article {
-    font-family: "Josefin Sans", sans-serif;
+}
+
+@media screen and (max-width: 501px) {
+  .title {
+    font-size: 2.75em;
   }
-  
+  .subtitle {
+    font-size: 1.75em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}

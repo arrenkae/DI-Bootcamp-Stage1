@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(241, 188, 135);
+}
+
+#wrap {
+    width: 900px;
+    margin: auto;
+    background-color: lightyellow;
+    border-style: dotted;
+}
+
+.headerbox {
+    font-style: italic;
+    font-weight: bold;
+    border-bottom-style: dotted;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.textbox {
+    padding: 20px 30px;
+    font-size: 14px;
+}
+
+.textbox ul {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+}
+
+li::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+}
